@@ -1,0 +1,16 @@
+{
+  "name": "kcf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "single": "--spec cypress/e2e/exercise/home.spec.cy.js"
+  },
+  "keywords": [],
+  "author": "Newas Azad (https://employeedashboard.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
